@@ -4,14 +4,19 @@
     padding: 0 20px;
     font-family: Arial, sans-serif;
     background-color: #858fcb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
 }
 /* Стили для блока .emp_details */
 .emp_details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
-
 /* Стили для блока .employee */
 .employee {
     width: calc(50% - 35px);
@@ -43,4 +48,12 @@ p {
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
+}
+/* map styles */
+.map {
+    border: #858fcb;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 400px;
+    width: 335px;
 }
