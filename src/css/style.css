@@ -20,7 +20,8 @@
 /* Стили для блока .employee */
 .employee {
     width: calc(50% - 35px);
-    margin-bottom: 20px;
+    background-color: #858fcb;
+    margin-bottom: 15px;
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
