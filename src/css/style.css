@@ -52,9 +52,12 @@ p {
 }
 /* map styles */
 .map {
-    border: #858fcb;
-    border-radius: 20px;
-    margin: 0 auto;
-    height: 400px;
     width: 335px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1 px solid black
+    border-radius: 20px;
+    
+    
+    
 }
